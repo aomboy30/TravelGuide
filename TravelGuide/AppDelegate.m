@@ -4,9 +4,15 @@
 //
 //  Created by Amporn Sonthi on 4/16/2558 BE.
 //  Copyright (c) 2558 Amporn Sonthi. All rights reserved.
+
+
+
+
+
 //
 
 #import "AppDelegate.h"
+#import <FBSDKLoginKit/FBSDKLoginKit.h>
 
 @interface AppDelegate ()
 
@@ -17,6 +23,31 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    sleep(1);
+    
+//    FBSDKLoginManager *login = [[FBSDKLoginManager alloc] init];
+//    
+//    [login logInWithReadPermissions:@[@"email"] handler:^(FBSDKLoginManagerLoginResult *result, NSError *error) {
+//        
+//        if (error) {
+//            // Process error
+//            NSLog(@"Process error");
+//        }
+//        else if (result.isCancelled) {
+//            // Handle cancellations
+//            NSLog(@"Handle");
+//        }
+//        else {
+//            // If you ask for multiple permissions at once, you
+//            // should check if specific permissions missing
+//            NSLog(@"ELSE");
+//            if ([result.grantedPermissions containsObject:@"email"]) {
+//                // Do work
+//                NSLog(@"Do work");
+//            }
+//        }
+//    }];
+    
     return YES;
 }
 

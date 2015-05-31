@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7531" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="loading.png" translatesAutoresizingMaskIntoConstraints="NO" id="YCD-27-5vk">
+                    <rect key="frame" x="-544" y="0.0" width="1024" height="1024"/>
+                    <color key="backgroundColor" red="0.74734973579999997" green="0.99076279710000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="YCD-27-5vk" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="0aG-uO-JXq"/>
+                <constraint firstAttribute="bottom" secondItem="YCD-27-5vk" secondAttribute="bottom" id="52W-jx-ALe"/>
+                <constraint firstAttribute="trailing" secondItem="YCD-27-5vk" secondAttribute="trailing" id="9Fv-SE-UfJ"/>
+                <constraint firstItem="YCD-27-5vk" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Cfe-f3-5Lb"/>
+                <constraint firstItem="YCD-27-5vk" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="FVz-B8-7Pg"/>
+                <constraint firstAttribute="trailing" secondItem="YCD-27-5vk" secondAttribute="trailing" id="tVA-9z-b4Z"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="404" y="445"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="loading.png" width="1024" height="1024"/>
+    </resources>
+</document>
