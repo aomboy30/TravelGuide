@@ -20,7 +20,7 @@
     [self callWebserice];
 }
 
--(void)callWebserice {
+-(void)callWebserice { // 
 
     NSString* tSoapMessage = NSLocalizedString(@"WS_SOAP_REQUEST", @"");
     NSString* tURLWeb = @"http://www.pttplc.com/webservice/pttinfo.asmx";
